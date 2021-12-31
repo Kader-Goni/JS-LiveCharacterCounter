@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+.main .calculator{
+    width: 560px;
+    background-color: aliceblue; 
+    margin: 0 auto;
+
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.main .calculator .header{
+    width: 560px;
+    height: 50px;
+    background: bisque;
+    line-height: 50px;
+
+}
+
+.main .calculator .header h2{
+    color: blueviolet;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main .calculator input{
+    width: 50%;
+    height: 30px;
+    border-color: blueviolet;
+}
+
+.calculator h3 span{
+    font-size: 30px;
+    color: crimson;
+
+}
+
+
+.calculator .firstInput{
+    margin: 20px 0px;
+}
+
+.calculator h3{
+    margin-top: 20px;
+}
+
+
+
+
+.main .calculator .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+    background-color: purple; 
+    padding: 10px 20px;
+
+    margin-right: 10px;
+    margin-top: 10px;
+
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
